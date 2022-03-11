@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main: assigns a random number to int n variable,
+ * main: assigns a random number to int n,
  * executes and prints on entry
  * Return: Always 0 (Success), else non zero
  */
-
 int main(void)
-{	
+{
 	int n;
 
 	srand(time(0));
@@ -27,6 +25,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	
 	return (0);
 }
