@@ -1,4 +1,4 @@
-# This contains programs that assigns a random number to the variable that;
+# This program will assign a random number to the variable that;
 * prints either positive or negative,
 * print the last digit of the number stored in the variable
 * prints the alphabet in lowercase,
