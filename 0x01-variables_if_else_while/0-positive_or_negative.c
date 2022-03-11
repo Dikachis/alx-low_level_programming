@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main: assigns a random number to int n,
+ * main - assigns a random number to int n
  * executes and prints on entry
- * Return: Always 0 (Success), else non zero
+ * Return: Always 0 (Success)
  */
 
 int main(void)
