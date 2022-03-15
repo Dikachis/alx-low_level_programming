@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 3-islower check main
+ * _islower check main
  * @c: An input character
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
