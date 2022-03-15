@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_times_table - function 
+ * print_times_table - prints times table for numbers from 0-14 
  * for numbers from 0-14
  * @n: input integer value
  * Return: nothing
