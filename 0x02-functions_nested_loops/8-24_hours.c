@@ -18,7 +18,7 @@ void jack_bauer(void)
 			m2 = min % 10;
 			_putchar(h1 + '0');
 			_putchar(h2 + '0');
-			putchar(':');
+			_putchar(':');
 			_putchar(m1 + '0');
 			_putchar(m2 + '0');
 			_putchar(10);
@@ -26,4 +26,3 @@ void jack_bauer(void)
 		min = 0;
 	}
 }
-
