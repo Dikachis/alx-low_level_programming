@@ -1,56 +1,53 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_times_table - prints times table for numbers from 0-14
- * @n: An input integer value
- * Return: Nothing
+ * print_times_table - function
+ *
+ * @n: parameter
+ *
+ * Return: end program
  */
 
 void print_times_table(int n)
 {
-	int i, j;
+	int a, m, p;
+	int c = 1;
 
-	if (n > 0 && n < 15)
+	if (n >= 0 && n <= 15)
 	{
-		for (i = 0; i <= n; i++)
+		for (m = 0; m <= n; m++)
 		{
-			_putchar('0');
-			for (j = 1; j <= n; j++)
-				putformat(i * j);
-			_putchar('\n');
+			for (a = 0; a <= n; a++)
+			{
+				p = m * a;
+				if (c == 0 && p < 10)
+				{
+					printf(",   %d", p);
+				}
+				else if (c == 0 && p < 100)
+				{
+					printf(",  %d", p);
+				}
+				else if (c == 0 && p < 1000)
+				{
+					printf(", %d", p);
+				}
+				else if (c == 0 && p >= 1000)
+				{
+					printf(",%d", p);
+				}
+				else
+				{
+					printf("%d", p);
+				}
+				c = 0;
+			}
+			putchar(10);
+			c = 1;
 		}
-	}
-}
-
-/**
- * putformat - formatted characters to output
- * @n: number to format
- * Return: nothing
- */
-void putformat(int n)
-{
-	if (n <= 9)
-	{
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
-		_putchar(' ');
-		_putchar(n + '0');
-	}
-	else if (n > 9 && n <= 99)
-	{
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
-		_putchar(n / 10 + '0');
-		_putchar(n % 10 + '0');
 	}
 	else
 	{
-		_putchar(',');
-		_putchar(' ');
-		_putchar(n / 100 + '0');
-		_putchar(n / 10 % 10 + '0');
-		_putchar(n % 10 + '0');
 	}
 }
