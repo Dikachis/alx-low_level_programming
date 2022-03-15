@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * 'print_times_table' - function
- * for numbers from 0-14
- * @n: input integer value
+ * print_times_table - prints times table for numbers from 0-14
+ * @n: An input integer value
  * Return: Nothing
  */
 
@@ -17,7 +16,7 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 			for (j = 1; j <= n; j++)
-				putformat (i * j);
+				putformat(i * j);
 			_putchar('\n');
 		}
 	}
@@ -28,8 +27,7 @@ void print_times_table(int n)
  * @n: number to format
  * Return: nothing
  */
-
-void putformat (int n)
+void putformat(int n)
 {
 	if (n <= 9)
 	{
