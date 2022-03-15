@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (Success)
  */
 
@@ -21,6 +21,6 @@ int main(void)
 			sum += fibonacci[i];
 	}
 	printf("%ld\n", sum);
-	
+
 	return (0);
 }
