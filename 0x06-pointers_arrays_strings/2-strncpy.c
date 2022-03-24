@@ -7,27 +7,26 @@
  * @n: an input integer
  * Return: A pointer to the resulting string
  */
-
 char *_strncpy(char *dest, char *src, int n)
 {
-	int src_n = 0, i = 0;
-	char *end = dest, *start = src;
+	int srclen = 0, i = 0;
+	char *temp = dest, *start = src;
 
 	while (*src)
 	{
-		src_n++;
+		srclen++;
 		src++;
 	}
 
-	src_n++;
+	srclen++;
 
-	if (n > src_n)
-		n = src_n;
+	if (n > srclen)
+		n = srclen;
 
 	src = start;
 
 	for (; i < n; i++)
 		*dest++ = *src++;
 
-	return (end);
+	return (temp);
 }
