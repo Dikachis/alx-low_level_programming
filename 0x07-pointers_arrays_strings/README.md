@@ -12,7 +12,6 @@
 * You are allowed to use _putchar
 * The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 ## Files to be worked on:
-|---|------------------------|--------------------------------------------------------------|
   S/N	Filess			Description
   1.	0-memset.c		a function that fills memory with a constant byte.
   2.	1-memcpy.c		a function that copies memory area.
@@ -23,4 +22,3 @@
   7.	7-print_chessboard.c	a function that prints the chessboard.
   8.	8-print_diagsums.c	a function that prints the sum of the two diagonals of a 
 				square matrix of integers.
-|---|------------------------|--------------------------------------------------------------|
