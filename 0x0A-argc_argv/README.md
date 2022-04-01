@@ -15,9 +15,13 @@
 
 ## List of files worked on:
 | S/N	|	files	       |	Description  |
-|:-----:|:--------------------:|:-------------------:|
+|:-----:|:--------------------:|:-------------------|
 |  1.	| [0-whatsmyname.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0A-argc_argv/0-whatsmyname.c) |A program that prints its name, followed by a new line.	|
 |  2.	|[1-args.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0A-argc_argv/1-args.c) | A program that prints the number of arguments passed into it.	|
+|  3.	|[2-args.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0A-argc_argv/2-args.c) | A program that prints all arguments it receives.|
+|  4.	|[3-mul.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0A-argc_argv/3-mul.c) | A program that multiplies two numbers.|
+|  5.	|[4-add.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0A-argc_argv/4-add.c) | A program that adds positive numbers.|
+|  6.	|[100-change.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0A-argc_argv/100-change.c) | A program that prints the minimum number of coins to make change for an amount of money. |
    
 
 
