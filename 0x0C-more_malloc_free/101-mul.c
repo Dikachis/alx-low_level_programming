@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdlib.h>
 
 /**
@@ -68,6 +69,15 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
  * Return: 0 if digits, 1 if not
  */
 int check_for_digits(char **av)
+=======
+/**
+* main - multiply 2 numbers as arguments
+* @argc: number of arguments
+* @argv: arguments
+* Return: 0 success
+*/
+int main(int argc, char *argv[])
+>>>>>>> ee87a8b6ba7eac224d6075e2bf6fe8cee5c4bc74
 {
 	int i, j;
 
