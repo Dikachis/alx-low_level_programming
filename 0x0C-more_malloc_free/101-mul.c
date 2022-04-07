@@ -1,18 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
 * main - multiply 2 numbers as arguments
 * @argc: number of arguments
 * @argv: arguments
 * Return: 0 success
 */
-
 int main(int argc, char *argv[])
 {
-	unsigned long mul;
-	int i, j;
-
+unsigned long mul;
+int i, j;
 	if (argc != 3)
 	{ printf("Error\n");
 	exit(98); }
