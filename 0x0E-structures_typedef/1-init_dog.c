@@ -11,7 +11,7 @@
  */
 
 {
-	if (d) // or it can be express this way, if (d ! = NULL)
+	if (d)
 	{
 		d->name = name;
 		d->age = age;
