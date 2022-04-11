@@ -2,28 +2,23 @@
 #include "dog.h"
 
 /**
- * print_dog - function with 1 argument
- * @d: structure pointer
+ * print_dog - prints a struct dog
+ * @d: pointer to structure
  *
- * Description: prints a struct
- * Return: na
+ * Return: void
  */
 void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
-		if (d->name)
+		if (d->name != NULL)
 			printf("Name: %s\n", d->name);
 		else
 			printf("Name: (nil)\n");
-		printf("Age: %f\n", d->age);
-		if (d->owner)
+		printf("Age: %.6f\n", d->age);
+		if (d->owner != NULL)
 			printf("Owner: %s\n", d->owner);
 		else
 			printf("Owner: (nil)\n");
 	}
 }
-
-    © 2022 GitHub, Inc.
-
-    Term
