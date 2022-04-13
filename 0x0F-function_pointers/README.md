@@ -28,6 +28,5 @@
 * int op_sub(int a, int b) - where "op_sub" returns the difference of a and b.
 * int op_mul(int a, int b) - where "op_mul" returns the product of a and b.
 * int op_div(int a, int b) - where "op_div" returns the result of the division of a by b.
-* int op_mod(int a, int b) - where "op_mod" returns the remainder of the division of a by b.
-|
+* int op_mod(int a, int b) - where "op_mod" returns the remainder of the division of a by b.|
 |  8.   |[100-main_opcodes.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/100-main_opcodes.c) | This prints the opcodes of its own main function up to a specified number of bytes.|
