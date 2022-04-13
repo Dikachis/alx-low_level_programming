@@ -23,11 +23,20 @@
 |  4.   |[3-main.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-main.c) | A program that performs simple operations passed in as parameters.|
 |  5.   |[3-get_op_func.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-get_op_func.c) | This selects the correct function from [3-op_functions.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c) to perform the operation asked by the user.|
 |  6.   |[3-calc.h](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-calc.h) | This is the header file for [3-main.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-main.c), [3-op_functions.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c), and [3-get_op_func.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-get_op_func.c).|
-|  7.   |[3-op_functions.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c) | It contains the following 5 functions: 
-|-------------------------------------------------------------------------------------------|
-| * int op_add(int a, int b) - where "op_add" returns the sum of a and b. |
-| * int op_sub(int a, int b) - where "op_sub" returns the difference of a and b.|
-| * int op_mul(int a, int b) - where "op_mul" returns the product of a and b.|
-| * int op_div(int a, int b) - where "op_div" returns the result of the division of a by b.|
-| * int op_mod(int a, int b) - where "op_mod" returns the remainder of the division of a by b.||
+|  7.   
+
+
+
+
+|[3-op_functions.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c) 
+
+
+
+
+| It contains the following 5 functions: 
+* int op_add(int a, int b) - where "op_add" returns the sum of a and b.
+* int op_sub(int a, int b) - where "op_sub" returns the difference of a and b.
+* int op_mul(int a, int b) - where "op_mul" returns the product of a and b.
+* int op_div(int a, int b) - where "op_div" returns the result of the division of a by b.
+* int op_mod(int a, int b) - where "op_mod" returns the remainder of the division of a by b.|
 |  8.   |[100-main_opcodes.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/100-main_opcodes.c) | This prints the opcodes of its own main function up to a specified number of bytes.|
