@@ -26,6 +26,6 @@
 |  7.   |[3-op_functions.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/3-op_functions.c) | It contains the following 5 functions: <ul><li>**int op_add(int a, int b)** - where **op_add** returns the sum of **a** and **b**.</li><li>**int op_sub(int a, int b**) - where **op_sub** returns the difference of **a** and **b**.</li><li>**int op_mul(int a, int b)** - where **op_mul** returns the product of **a** and **b**.</li><li>**int op_div(int a, int b)** - where **op_div** returns the result of the division of **a** by **b**.</li><li>**int op_mod(int a, int b)** - where **op_mod** returns the remainder of the division of **a** by **b**.</li></ul>|
 |  8.   |[100-main_opcodes.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x0F-function_pointers/100-main_opcodes.c) | This prints the opcodes of its own main function up to a specified number of bytes.|
 
-[![alx](C:\Users\user\Desktop\Dikachi Html2\Images Ass\images.png)](https://alx-intranet.hbtn.io/projects/226)
+[![alx](Images Ass/images.png)](https://alx-intranet.hbtn.io/projects/226)
 
 [Firefox pocket](https://getpocket.com/my-list?src=navbar)
