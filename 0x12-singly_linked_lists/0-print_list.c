@@ -3,8 +3,6 @@
 
 /**
  * print_list - prints all the elements of a list_t list
- *
- * @h: const pointer type
  * @h: pointer to the start of the list
  * 
  * Return: number of nodes in the list
