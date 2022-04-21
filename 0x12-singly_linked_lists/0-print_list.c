@@ -3,7 +3,7 @@
 
 /**
  * print_list - prints all the elements of a list_t list
- * function with one argument
+ *
  * @h: const pointer type
  * @h: pointer to the start of the list
  * 
