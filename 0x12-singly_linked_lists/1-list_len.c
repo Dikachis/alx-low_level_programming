@@ -12,7 +12,7 @@ size_t list_len(const list_t *h)
 	unsigned int i;
 
 	dikachi = h;
-	for (i = 0; dikachi ! = NULL; i++)
+	for (i = 0; dikachi; i++)
 		dikachi = dikachi->next;
 	return (i);
 }
