@@ -26,29 +26,29 @@ unsigned int _strlen(char *str)
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *new_node, *dikachi;
+	list_t *new, *tmp;
 
 	if (str == NULL)
 		return (NULL);
-	new_node = malloc(sizeof(list_t));
-	if (new_node == NULL)
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
 		return (NULL);
-	new_node->str = strdup(str);
-	if (new_node->str == NULL)
+	new->str = strdup(str);
+	if (new->str == NULL)
 	{
-		free(new_node);
+		free(new);
 		return (NULL);
 	}
-	new_node->len = _strlen(new_node->str);
-	new_node->next = NULL;
+	new->len = _strlen(new->str);
+	new->next = NULL;
 	if (*head == NULL)
 	{
-		*head = new_node;
-		return (new_node);
+		*head = new;
+		return (new);
 	}
-	dikachi = *head;
-	while (dikachi->next)
-		dikachi = dikachi->next;
-	dikachi->next = dikachi;
-	return (new_node);
+	tmp = *head;
+	while (tmp->next)
+		tmp = tmp->next;
+	tmp->next = new;
+	return (new);
 }
