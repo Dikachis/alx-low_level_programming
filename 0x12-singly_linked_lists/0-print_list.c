@@ -9,17 +9,17 @@
  */
 size_t print_list(const list_t *h)
 {
-	const list_t *tmp;
+	const list_t *dikachi;
 	unsigned int i;
 
-	tmp = h;
-	for (i = 0; tmp != NULL; i++)
+	dikachi = h;
+	for (i = 0; dikachi != NULL; i++)
 	{
-		if (tmp->str == NULL)
+		if (dikachi->str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf("[%u] %s\n", tmp->len, tmp->str);
-		tmp = tmp->next;
+			printf("[%u] %s\n", dikachi->len, dikachi->str);
+		dikachi = dikachi->next;
 	}
 	return (i);
 }
