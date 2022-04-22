@@ -8,10 +8,11 @@
  */
 size_t list_len(const list_t *h)
 {
-	const list_t *h;
+	const list_t *dikachi;
 	unsigned int i;
 
-	for (i = 0; h ! = NULL; i++)
-		h = h->next;
+	dikachi = h;
+	for (i = 0; dikachi ! = NULL; i++)
+		dikachi = dikachi->next;
 	return (i);
 }
