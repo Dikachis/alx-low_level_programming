@@ -1,6 +1,6 @@
 # 0x14. C - Bit manipulation
 
-![Illustration](C:\Users\user\Desktop\Dikachi Html2\Images Ass\bitwise.png)
+![Illustration](/Users/user/Desktop/Dikachi Html2/Images Ass/bitwise.png)
 
 ## Introduction/Objective
 * To look for the right source of information without too much help
@@ -20,7 +20,7 @@
 ## List of files and description:
 | S/N   |       Files          |        Description  |
 |:-----:|:--------------------:|:-------------------|
-|1. | [0-binary_to_uint.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c) | A function that converts a binary number to an **unsigned int**. <ul><li>Prototype: **unsigned int binary_to_uint(const char *b *);** </li><li>where **b** is pointing to a string of **0** and **1** chars</li><li>Return: the converted number, or **0** if<ul><li>there is one or more chars in the string **b** that is not **0** or **1**</li><li>**b** is **NULL**</li></li></ul> |
+|1. | [0-binary_to_uint.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x14-bit_manipulation/0-binary_to_uint.c) | A function that converts a binary number to an **unsigned int**. <ul><li>Prototype: **unsigned int binary_to_uint(const char *b);**</li><li>where **b** is pointing to a string of **0** and **1** chars</li><li>Return: the converted number, or **0** if<ul><li>there is one or more chars in the string **b** that is not **0** or **1**</li><li>**b** is **NULL**</li></li></ul> |
 |2.|[1-print_binary.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x14-bit_manipulation/1-print_binary.c) | A function that prints the binary representation of a number. <ul><li>Prototype: **void print_binary(unsigned long int n);**</li><li>Format: see example</li><li>You are not allowed to use arrays</li><li>You are not allowed to use **malloc**</li><li>You are not allowed to use the % or / operators</li></ul>|
 |3. |[2-get_bit.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x14-bit_manipulation/2-get_bit.c) |A function that returns the value of a bit at a given index. <ul><li>Prototype: **int get_bit(unsigned long int n, unsigned int index);** </li><li>where index is the index, starting from 0 of the bit you want to get</li><li>Returns: the value of the bit at index index or -1 if an error occured</li></ul>|
 |4.|[3-set_bit.c](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x14-bit_manipulation/3-set_bit.c) |A function that sets the value of a bit to **1** at a given index. <ul><li>Prototype: **int set_bit(unsigned long int *n, unsigned int index);** </li><li>where index is the **index**, starting from **0** of the bit you want to set</li><li>Returns: 1 if it worked, or -1 if an error occurred</li></ul>|
