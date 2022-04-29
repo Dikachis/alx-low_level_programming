@@ -1,6 +1,6 @@
 # 0x14. C - Bit manipulation
 
-![Alt text](Images_Ass/bitwise.png)
+![Binary illustration](/c/Users/user/alx-low_level_programming/bitwise.png)
 
 ## Introduction/Objective
 * To look for the right source of information without too much help
