@@ -1,6 +1,6 @@
 # 0x14. C - Bit manipulation
 
-![Illustration](C:\Users\user\Desktop\Dikachi_Html2\Images_Ass\bitwise.png)
+![Illustration]('/c/Users/user/Desktop/Dikachi Html2/Images Ass/bitwise.png')
 
 ## Introduction/Objective
 * To look for the right source of information without too much help
