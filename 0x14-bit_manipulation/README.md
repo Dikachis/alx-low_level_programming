@@ -1,5 +1,5 @@
 # 0x14. C - Bit manipulation
-![bitwise](./alx-low_level_programming/bitwise.png)
+![bitwise](alx-low_level_programming/bitwise.png)
 
 ## Introduction/Objective
 * To look for the right source of information without too much help
