@@ -1,5 +1,5 @@
 # 0x14. C - Bit manipulation
-![bitwise](./image/bitwise.png)
+![My bitwise](./image/bitwise.png)
 
 ## Introduction/Objective
 * To look for the right source of information without too much help
