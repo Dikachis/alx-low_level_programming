@@ -1,5 +1,6 @@
 # 0x14. C - Bit manipulation
-![Bitwise](/c/Users/user/alx-low_level_programming/images.png)
+
+<img src="/c/Users/user/alx-low_level_programming/bitwise.png" alt="bitwise" title="Binary">
 
 ## Introduction/Objective
 * To look for the right source of information without too much help
