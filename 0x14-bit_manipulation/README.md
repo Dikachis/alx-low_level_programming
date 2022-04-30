@@ -1,5 +1,5 @@
 # 0x14. C - Bit manipulation
-# <a href="url"><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/232/bitwise.png" align="middle" width="100" height="100"></a> 
+# ![Alt txt](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/232/bitwise.png)
 
 ## Introduction/Objective
 * To look for the right source of information without too much help
