@@ -1,5 +1,5 @@
 # 0x14. C - Bit manipulation
-![My bitwise](./image/bitwise.png)
+# <a href="url"><img src="./image/bitwise.png" align="middle" width="100" height="100"></a>
 
 ## Introduction/Objective
 * To look for the right source of information without too much help
