@@ -1,8 +1,4 @@
-#include "main.h"
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
+#include "coding.h"
 
 /**
  * create_file - function with two arguments
@@ -27,10 +23,8 @@ int create_file(const char *filename, char *text_content)
 
 	if (text_content != NULL)
 	{
-		for (;text_content[count] != '\0'; count++);
-		{
-			continue;
-		}
+		while (text_content[count] != '\0')
+			count++;
 	}
 	else
 	{
