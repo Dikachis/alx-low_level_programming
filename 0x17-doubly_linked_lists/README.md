@@ -5,7 +5,7 @@
 * To start looking for the right source of information without too much help
 
 ### Resource:
-[What is a Doubly Linked List](https://www.youtube.com/watch?v=k0pjD12bzP0) || [How to Create a Doubly Linked List](https://www.youtube.com/watch?v=YJRRpXYldVQ)
+[What is a Doubly Linked List](https://www.youtube.com/watch?v=k0pjD12bzP0) | | [How to Create a Doubly Linked List](https://www.youtube.com/watch?v=YJRRpXYldVQ) | | [Iterating over doubly linked lists](https://www.youtube.com/watch?v=XYKRamzmHEE) | | [Creating an Entire Doubly Linked List](https://www.youtube.com/watch?v=EgrSkwnuZUU) | | [ Implementation of Doubly Linked List by Jenny Lectures](https://www.youtube.com/watch?v=H8-IuKKiQeo)
 
 ## General Requirements
 * Allowed editors: **vi**, **vim**, **emacs**
