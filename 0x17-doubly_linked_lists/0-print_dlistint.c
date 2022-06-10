@@ -9,9 +9,11 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	for (node* h = tail; h != NULL; h = h->next)
+	size_t nodes;
+	for (nodes = 0; h != NULL; nodes++)
 	{
 		printf("%d\n", h->n);
+		h = h->next;
 	}
-	return (node* h = tail);
+	return (nodes);
 }
