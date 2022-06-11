@@ -1,5 +1,5 @@
 # 0x17. C - Doubly linked lists
-## Introduction/Objective
+## Introduction/Objectives
 * To know what doubly linked list is
 * To know how to use doubly linked lists
 * To start looking for the right source of information without too much help
