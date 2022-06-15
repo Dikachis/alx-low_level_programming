@@ -31,13 +31,3 @@ Bash:
 |  3.   |[1-create_dynamic_lib.sh](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x09-static_libraries/1-create_dynamic_lib.sh) | A script called 1-create_dynamic_lib.sh that creates a static library called **liball.a** from all the **.c** files that are in the current directory.|
 |  2.   |[100-operations.so](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x18-dynamic_libraries/100-operations.so) | To create a dynamic library that contains C functions that can be called from Python.  |
 |  3.   |[101-make_me_win.sh](https://github.com/Dikachis/alx-low_level_programming/blob/master/0x18-dynamic_libraries/101-make_me_win.sh) | The Giga Millions program. |
-
-| S/N   |       files          |        Description  |
-|:-----:|:--------------------:|:-------------------|
-|  help <br> dog <br> home <br> doop | help <br> dog <br> home <br> doop | help <br> dog <br> home <br> doop|
-
-
-| S/N   |       files          |        Description  |
-|:-----:|:--------------------:|:-------------------|
-|  help \ dog \ home \ doop | help \ dog \ home \ doop | help \ dog \ home \ doop|
-
