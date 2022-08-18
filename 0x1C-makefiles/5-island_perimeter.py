@@ -13,8 +13,8 @@ def island_perimeter(grid):
         if i < len(gl) - 1 and i > 0:
             if gl[i] == 0 and gl[i + 1] == 1 or gl[i] == 0 and gl[i - 1] == 1:
                 peri += 1
-                if peri % 2 == 0:
-                    peri *= 2
-                else:
-                    peri = (peri * 2) - 1
-                    return peri
+    if peri % 2 == 0:
+        peri *= 2
+    else:
+        peri = (peri * 2) - 1
+    return peri
