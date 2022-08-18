@@ -11,7 +11,8 @@ def island_perimeter(grid):
             grid_list.append(grid[i][j])
     for i in range(len(grid_list)):
         if i < len(grid_list) - 1 and i > 0:
-            if grid_list[i] == 0 and grid_list[i + 1] == 1 or grid_list[i] == 0 and l[i - 1] == 1:
+            if grid_list[i] == 0 and grid_list[i + 1] == 1 or
+            grid_list[i] == 0 and l[i - 1] == 1:
                 peri += 1
     if peri % 2 == 0:
         peri *= 2
