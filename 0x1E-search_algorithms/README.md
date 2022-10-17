@@ -19,7 +19,7 @@
 - All your header files should be include guarded
 
 ### More Info
-**You will be asked to write files containing big O notations. Please use this format:**
+**You will be asked to write files containing big O notations. Please use this format:**<br>
 	- ``O(1)``
 	- ``O(n)``
 	- ``O(n!)``
