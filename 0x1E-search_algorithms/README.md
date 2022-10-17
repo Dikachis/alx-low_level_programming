@@ -1,12 +1,10 @@
 # 0x1E. C - Search Algorithms
 
 ## Learning Objectives<br>
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-General
-	- What is a search algorithm
-	- What is a linear search
-	- What is a binary search
-	- What is the best search algorithm to use depending on your needs
+- What is a search algorithm
+- What is a linear search
+- What is a binary search
+- What is the best search algorithm to use depending on your needs
 
 ## General Requirements
 - Allowed editors: ``vi``, ``vim``, ``emacs``
@@ -20,8 +18,8 @@ General
 - The prototypes of all your functions should be included in your header file called ``search_algos.h``
 - All your header files should be include guarded
 
-### More Info<br>
-You will be asked to write files containing big O notations. Please use this format:
+### More Info
+**You will be asked to write files containing big O notations. Please use this format:**
 	- ``O(1)``
 	- ``O(n)``
 	- ``O(n!)``
